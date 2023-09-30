@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "btes-system"
+  },
+  "targets": {
+    "btes-system": {
+      "hosting": {
+        "en": [
+          "btes-parent",
+          "deploy",
+          "firebase"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

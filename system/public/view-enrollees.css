@@ -1,0 +1,244 @@
+.view-enrollees .view-enrollees-container {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.view-enrollees .content-body .search-button-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.view-enrollees .enrollee-information {
+    width: 100%;
+    height: 0px;
+    padding: 50px 160px 0 160px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form {
+    width: 100%;
+    padding: 50px;
+}
+
+.view-enrollees .enrollee-information .logo-enrollment-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-enrollees .enrollee-information .logo-enrollment-text-container .enrollment-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-enrollees .enrollee-information .logo-enrollment-text-container img {
+    width: 80px;
+    border-radius: 100%;
+    margin-left: -200px;
+}
+
+.view-enrollees .enrollee-information input {
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.view-enrollees .enrollee-information input:focus {
+    outline: 2px solid rgb(68, 68, 255);
+    border: none;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .date-enrolled-age-on-june-container {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-container .surname-text-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-container .surname-text-input input {
+    width: 300px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-container .first-name-text-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-container .first-name-text-input input {
+    width: 300px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-container .middle-name-text-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-container .middle-name-text-input input {
+    width: 300px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .date-of-birth-place-of-birth-age-sex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .date-of-birth-place-of-birth-age-sex-container .date-of-birth-text-input input{
+    width: 200px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .date-of-birth-place-of-birth-age-sex-container .place-of-birth-text-input input{
+    width: 300px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .date-of-birth-place-of-birth-age-sex-container .age-text-input input{
+    width: 80px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .date-of-birth-place-of-birth-age-sex-container .sex-text-input input{
+    width: 80px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .home-address-contact-no-religion-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .home-address-contact-no-religion-container .home-address-text-input input {
+    width: 300px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .school-last-attended-address-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .school-last-attended-address-container .school-last-attended-text-input input {
+    width: 360px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .school-last-attended-address-container .address-text-input input {
+    width: 360px;
+}
+
+
+.view-enrollees .enrollee-information .fill-up-form .grade-level-in-the-previous-school-honor-received-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .grade-level-in-the-previous-school-honor-received-container .grade-level-in-the-previous-school-text-input input {
+    width: 240px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .grade-level-in-the-previous-school-honor-received-container .honor-received-text-input input {
+    width: 280px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-of-father-occupation-contact-no-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-of-father-occupation-contact-no-container .name-of-father-text-input input {
+    width: 270px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-of-mother-occupation-contact-no-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-of-mother-occupation-contact-no-container .name-of-mother-text-input input {
+    width: 270px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .text {
+    margin-top: 30px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-relationship-contact-nos-tel-cell-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-relationship-contact-nos-tel-cell-container .name-text-input input {
+    width: 250px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-relationship-contact-nos-tel-cell-container .relationship-text-input input {
+    width: 150px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-relationship-contact-nos-tel-cell-container .contact-no-text-input input {
+    width: 120px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .name-relationship-contact-nos-tel-cell-container .cell-no-text-input input {
+    width: 120px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .grade-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+
+}
+
+.view-enrollees .enrollee-information .fill-up-form .grade-container .form-check-pupil {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .grade-container .form-check-pupil > div {
+    margin: 10px 40px;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .enroll-close-btn {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .enroll-close-btn button {
+    width: 150px;
+    padding: 12px 0;
+}
+
+.view-enrollees .enrollee-information .fill-up-form .enroll-btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 1500px){
+    .view-enrollees .enrollee-information {
+        height: 0px;
+        width: 100%;
+        padding: 80px 100px 0 100px;
+    }
+}

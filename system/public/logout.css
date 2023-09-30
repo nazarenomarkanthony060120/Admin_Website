@@ -1,0 +1,19 @@
+.logout-administrator {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #fff;
+    height: 45px;
+}
+
+.logout-administrator span {
+    padding: 10px 15px;
+}
+
+.logout-administrator span:hover {
+    background: rgb(209, 209, 209);
+}
+
+.logout-administrator i {
+    margin: 0 5px;
+}

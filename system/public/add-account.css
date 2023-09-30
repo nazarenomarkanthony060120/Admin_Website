@@ -1,0 +1,157 @@
+.add-account .parent-add-account input, 
+ .add-account .teacher-add-account input {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+}
+
+.add-account .parent-add-account input:focus,
+.add-account .teacher-add-account input:focus {
+    outline: 2px solid rgb(68, 68, 255);
+    border: none;
+}
+
+.add-account .content-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-account .parent-add-account {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: inset #000 0 0 3px;
+    margin: 25px 15px;
+}
+
+.add-account .parent-add-account .parent-add-account-header {
+    text-align: center;
+    background-color: #dfdfdf;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    margin: 1px;
+}
+
+.add-account .parent-add-account-header span {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.add-account .parent-add-account .parent-add-account-container {
+    padding: 10px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .f_name_label{
+    margin-left: 145px;
+    padding-right: 5px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .m_name_label{
+    margin-left: 119px;
+    padding-right: 5px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .l_name_label{
+    margin-left: 140px;
+    padding-right: 5px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .grade_label{
+    margin-left: 172px;
+    padding-right: 5px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .address_label{
+    margin-left: 158px;
+    padding-right: 5px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .contact_number_label{
+    margin-left: 97px;
+    padding-right: 5px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .father_name_label{
+    margin-left: 124px;
+    padding-right: 5px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .mother_name_label{
+    margin-left: 116px;
+    padding-right: 5px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .email_label{
+    margin-left: 176px;
+    padding-right: 5px;
+}
+
+.add-account .parent-add-account .parent-add-account-container .info-container .password_label{
+    margin-left: 148px;
+    padding-right: 5px;
+}
+
+.add-account .teacher-add-account {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: inset #000 0 0 3px;
+    margin: 15px 15px;
+}
+
+.add-account .teacher-add-account-header  {
+    text-align: center;
+    background-color: #dfdfdf;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    margin: 1px;
+}
+
+.add-account .teacher-add-account-header span {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.add-account .teacher-add-account .teacher-add-account-container {
+    padding: 10px;
+}
+
+.add-account .teacher-add-account .teacher-add-account-container .info-container .f_name_label{
+    margin-left: 144px;
+    padding-right: 5px;
+}
+
+.add-account .teacher-add-account .teacher-add-account-container .info-container .m_name_label{
+    margin-left: 118px;
+    padding-right: 5px;
+}
+
+.add-account .teacher-add-account .teacher-add-account-container .info-container .l_name_label{
+    margin-left: 140px;
+    padding-right: 5px;
+}
+
+.add-account .teacher-add-account .teacher-add-account-container .info-container .grade_label{
+    margin-left: 172px;
+    padding-right: 5px;
+}
+
+.add-account .teacher-add-account .teacher-add-account-container .info-container .address_label{
+    margin-left: 158px;
+    padding-right: 5px;
+}
+
+.add-account .teacher-add-account .teacher-add-account-container .info-container .contact_number_label{
+    margin-left: 98px;
+    padding-right: 5px;
+}
+
+.add-account .teacher-add-account .teacher-add-account-container .info-container .email_label{
+    margin-left: 177px;
+    padding-right: 5px;
+}
+
+.add-account .teacher-add-account .teacher-add-account-container .info-container .password_label{
+    margin-left: 148px;
+    padding-right: 5px;
+}
